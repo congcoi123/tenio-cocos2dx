@@ -24,8 +24,9 @@ You can get the sources:
 git clone https://github.com/TenMei/tenio-cocos2dx.git
 ```
 
-## Other clients
+## Other Clients
 - [TenIOLibgdx](https://github.com/TenMei/tenio-libgdx.git)
+- [TenIOJs](https://github.com/TenMei/tenio-js.git)
 
 ## Running
 Please start the server in example 1 before running this client.
