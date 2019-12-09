@@ -117,7 +117,7 @@ void MainScene::initServerEvents()
             // When connection is established successful
             // Send a login request to the server
             CCLOG("Success to connect to Server");
-			__sender->login("kong", "signature");
+			__sender->login(__getRandomName(5), "signature");
 		}
 		else
 		{
@@ -212,3 +212,20 @@ void MainScene::onPlayerResponse(int resp)
     }
     */
 }
+
+std::string MainScene::__getRandomName(size_t length)
+{
+    auto randchar = []() -> char
+    {
+        const char charset[] =
+        "0123456789"
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        "abcdefghijklmnopqrstuvwxyz";
+        const size_t max_index = (sizeof(charset) - 1);
+        return charset[ rand() % max_index ];
+    };
+    std::string str(length,0);
+    std::generate_n( str.begin(), length, randchar );
+    return str;
+}
+

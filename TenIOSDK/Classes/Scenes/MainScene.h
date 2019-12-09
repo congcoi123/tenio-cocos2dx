@@ -65,6 +65,8 @@ public:
     
 private:
 
+    std::string __getRandomName(size_t length);
+    
 	// server's information
 	std::string __hostName;
 	int __port;
