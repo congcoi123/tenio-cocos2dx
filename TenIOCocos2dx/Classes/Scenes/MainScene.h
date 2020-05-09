@@ -30,8 +30,8 @@
 #include "network/HttpResponse.h"
 #include "network/HttpRequest.h"
 
-#include "Server/Sender.h"
-#include "Server/Socket/SocketClient.h"
+#include "Network/Sender.h"
+#include "Network/Socket/SocketClient.h"
 
 USING_NS_CC;
 using namespace rapidjson;
