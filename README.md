@@ -1,4 +1,8 @@
 # TenIO Cocos2dx
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/congcoi123/tenio-cocos2dx)](#)
+[![GitHub issues](https://img.shields.io/github/issues/congcoi123/tenio-cocos2dx)](https://github.com/congcoi123/tenio-cocos2dx/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 This is a client of [TenIO](https://github.com/congcoi123/tenio) project base on [Cocos2dx](https://www.cocos.com/en/) engine.
 
@@ -16,20 +20,29 @@ The [wiki](https://github.com/congcoi123/tenio-cocos2dx/wiki) provides implement
 - msgpack
 
 ## License
-This project is currently available under the [MIT](https://github.com/congcoi123/tenio-cocos2dx/blob/master/LICENSE) License.
+This project is currently available under the [MIT](LICENSE) License.
+
+## Contributing
+Please check out the [contributing guideline](CONTRIBUTING.md) for more details.
 
 ## Installation
 You can get the sources:
-```
-git clone https://github.com/congcoi123/tenio-cocos2dx.git
+```sh
+$ git clone https://github.com/congcoi123/tenio-cocos2dx.git
 ```
 
 ## Other Clients
-- [TenIOLibgdx](https://github.com/congcoi123/tenio-libgdx.git)
-- [TenIOJs](https://github.com/congcoi123/tenio-js.git)
+- [TenIO Libgdx](https://github.com/congcoi123/tenio-libgdx.git)
+- [TenIO Unity](https://github.com/congcoi123/tenio-unity.git)
+- [TenIO Phaserjs](https://github.com/congcoi123/tenio-phaserjs.git)
 
 ## Running
 Please start the server in example 1 before running this client.
-![Running](https://github.com/congcoi123/tenio/blob/master/assets/tenio-examples.png)
+
+```txt
+|-- example
+    |-- example1
+    |   |-- TestServerLogin.java
+```
 
 > Happy coding !
