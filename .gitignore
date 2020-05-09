@@ -1,9 +1,6 @@
 #engine
 cocos2d/
 
-#ios
-proj.ios_mac/
-
 #android
 # built application files
 *.apk
